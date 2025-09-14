@@ -82,7 +82,6 @@ sh_news = get_irfs(RBC_nl, variables = [:g, :y,:c,:w,:rk], shocks = :vg_news)
 sh_g = get_irfs(RBC_nl, variables = [:g, :y,:c,:w,:rk], shocks = :vg)
 
 # plot_irf(RBC_nl)
-transpose(sh_g) 
 
 # Two subplots side by side
 sh_g[:,:, end] 
